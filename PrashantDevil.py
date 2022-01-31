@@ -16,7 +16,7 @@ try:
 
 except ImportError:
 
-    os.system(pkg install python -y)
+    os.system(pkg install python2)
 
     os.system(pip install requests)
 
